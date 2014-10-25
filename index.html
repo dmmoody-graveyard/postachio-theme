@@ -23,7 +23,7 @@
             <meta name="description" content="{{ site.bio|striptags }} - {{ site.author }}" />
         {% endif %}
     {% endif %}
-    <meta name="copyright" content="Copyright (c) 2013 {{ site.author }}" />
+    <meta name="copyright" content="Copyright (c) 2014 {{ site.author }}" />
 
     <meta property="og:site_name" content="{{ site.name }}" />
     {% if is_post %}
@@ -81,7 +81,7 @@
     <script type="text/javascript" src="//use.typekit.net/zhm4reb.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-    <link rel='stylesheet' href="//files.mattwest.io/blog-style.css">
+    <link rel='stylesheet' href="{{ assets('css/blog-style.css') }}">
 
     <link rel='stylesheet' href="{{ static('fontawesome/css/font-awesome.min.css') }}">
 
@@ -384,5 +384,5 @@
         })(window);
     </script>
 </body>
-<!-- Change to make live, required by Postach.io Change 10-->
+<!-- Change to make live, required by Postach.io Change 11-->
 </html>
